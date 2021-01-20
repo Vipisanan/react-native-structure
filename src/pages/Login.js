@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity,Alert } from 'react-native';
 import {PRIMARY ,WHITE ,BLACK} from '../styles/colors';
 import LogoWithText from '../resources/icons/logo-with-text.svg';
 
@@ -50,6 +50,28 @@ const styles = StyleSheet.create({
 });
 
 export default class Login extends Component {
+    constructor() {
+        super();
+        this.state={
+            email:'',
+            password:''
+        }
+    }
+    login=()=>{
+        Alert.alert(
+            "Alert Title",
+            "My Alert Msg",
+            [
+                {
+                    text: "Cancel",
+                    onPress: () => console.log("Cancel Pressed"),
+                    style: "cancel"
+                },
+                { text: "OK", onPress: () => console.log("OK Pressed") }
+            ],
+            { cancelable: false }
+        );
+    }
     render() {
         return (
             <View style={styles.container}>
@@ -74,14 +96,13 @@ export default class Login extends Component {
                 <TouchableOpacity>
                     <Text style={styles.forgot}>Forgot Password?</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.loginBtn}>
+                <TouchableOpacity style={styles.loginBtn}
+                                  onPress={this.login}>
                     <Text style={styles.loginText}>LOGIN</Text>
                 </TouchableOpacity>
                 <TouchableOpacity>
                     <Text style={styles.loginText}>Signup</Text>
                 </TouchableOpacity>
-
-
             </View>
         );
 
