@@ -1,0 +1,20 @@
+<svg id="files_board_icon" data-name="files board icon" xmlns="http://www.w3.org/2000/svg" width="17.77" height="21.847"
+     viewBox="0 0 17.77 21.847">
+    <path id="Fill_1" data-name="Fill 1"
+          d="M16.367,21.847H1.4A1.416,1.416,0,0,1,0,20.422v-19A1.416,1.416,0,0,1,1.4,0H11.69a.46.46,0,0,1,.331.139l5.611,5.7a.474.474,0,0,1,.138.336V20.422A1.416,1.416,0,0,1,16.367,21.847ZM1.4.95a.472.472,0,0,0-.468.475v19A.472.472,0,0,0,1.4,20.9H16.367a.472.472,0,0,0,.467-.475V6.371L11.5.95Z"
+          transform="translate(0 0)" fill="inherit"  stroke="none"/>
+    <path id="Fill_3" data-name="Fill 3" d="M6.079,5.7H.468A.471.471,0,0,1,0,5.224V0H.935V4.749H6.079Z"
+          transform="translate(11.223 0.95)" fill="inherit"  stroke="none"/>
+    <path id="Fill_5" data-name="Fill 5"
+          d="M6.079.95H.468A.471.471,0,0,1,0,.475.471.471,0,0,1,.468,0H6.079a.471.471,0,0,1,.468.475A.471.471,0,0,1,6.079.95"
+          transform="translate(2.806 7.124)" fill="inherit"  stroke="none"/>
+    <path id="Fill_7" data-name="Fill 7"
+          d="M11.69.95H.468A.471.471,0,0,1,0,.475.471.471,0,0,1,.468,0H11.69a.471.471,0,0,1,.468.475A.471.471,0,0,1,11.69.95"
+          transform="translate(2.806 9.973)" fill="inherit"  stroke="none"/>
+    <path id="Fill_9" data-name="Fill 9"
+          d="M11.69.95H.468A.471.471,0,0,1,0,.475.471.471,0,0,1,.468,0H11.69a.471.471,0,0,1,.468.475A.471.471,0,0,1,11.69.95"
+          transform="translate(2.806 12.823)" fill="inherit"  stroke="none"/>
+    <path id="Fill_11" data-name="Fill 11"
+          d="M11.69.95H.468A.471.471,0,0,1,0,.475.471.471,0,0,1,.468,0H11.69a.471.471,0,0,1,.468.475A.471.471,0,0,1,11.69.95"
+          transform="translate(2.806 15.673)" fill="inherit"  stroke="none"/>
+</svg>

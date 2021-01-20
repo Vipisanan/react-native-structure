@@ -1,0 +1,27 @@
+<svg id="invoice" xmlns="http://www.w3.org/2000/svg" width="15.75" height="21" viewBox="0 0 15.75 21">
+    <g id="Group_330" data-name="Group 330">
+        <g id="Group_329" data-name="Group 329">
+            <path id="Path_453" data-name="Path 453"
+                  d="M79.622,4.5,75.247.128A.437.437,0,0,0,74.937,0H65.75A1.752,1.752,0,0,0,64,1.75v17.5A1.752,1.752,0,0,0,65.75,21H78a1.752,1.752,0,0,0,1.75-1.75V4.812A.437.437,0,0,0,79.622,4.5Zm-4.247-3.01,2.881,2.881H76.25a.876.876,0,0,1-.875-.875Zm3.5,17.756a.876.876,0,0,1-.875.875H65.75a.876.876,0,0,1-.875-.875V1.75A.876.876,0,0,1,65.75.875H74.5V3.5a1.752,1.752,0,0,0,1.75,1.75h2.625Z"
+                  transform="translate(-64)" fill="inherit"  stroke="none"/>
+            <path id="Path_454" data-name="Path 454"
+                  d="M138.062,298.667h-9.625a.438.438,0,1,0,0,.875h9.625a.438.438,0,1,0,0-.875Z"
+                  transform="translate(-125.375 -286.417)" fill="inherit"  stroke="none"/>
+            <path id="Path_455" data-name="Path 455"
+                  d="M138.062,234.667h-9.625a.438.438,0,1,0,0,.875h9.625a.438.438,0,1,0,0-.875Z"
+                  transform="translate(-125.375 -225.042)" fill="inherit"  stroke="none"/>
+            <path id="Path_456" data-name="Path 456"
+                  d="M138.062,362.667h-9.625a.438.438,0,1,0,0,.875h9.625a.438.438,0,1,0,0-.875Z"
+                  transform="translate(-125.375 -347.792)" fill="inherit"  stroke="none"/>
+            <path id="Path_457" data-name="Path 457"
+                  d="M133.688,426.667h-5.25a.438.438,0,0,0,0,.875h5.25a.438.438,0,1,0,0-.875Z"
+                  transform="translate(-125.375 -409.167)" fill="inherit"  stroke="none"/>
+            <path id="Path_458" data-name="Path 458"
+                  d="M234.667,171.1a.437.437,0,0,0,.438.438h5.25a.438.438,0,0,0,0-.875H235.1A.437.437,0,0,0,234.667,171.1Z"
+                  transform="translate(-227.667 -163.666)" fill="inherit"  stroke="none"/>
+            <path id="Path_459" data-name="Path 459"
+                  d="M129.313,78.6h-.875a.438.438,0,0,0,0,.875h.438a.438.438,0,1,0,.875,0V79.4a1.309,1.309,0,0,0-.438-2.544.438.438,0,0,1,0-.875h.875a.438.438,0,1,0,0-.875h-.438a.438.438,0,0,0-.875,0v.081a1.309,1.309,0,0,0,.438,2.544.438.438,0,0,1,0,.875Z"
+                  transform="translate(-125.375 -71.603)" fill="inherit"  stroke="none"/>
+        </g>
+    </g>
+</svg>
