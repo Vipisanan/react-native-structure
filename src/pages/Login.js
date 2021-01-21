@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity,Alert } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity,Alert ,Image} from 'react-native';
 import {PRIMARY ,WHITE ,BLACK} from '../styles/colors';
 import LogoWithText from '../resources/icons/logo-with-text.svg';
+import { loginUser ,getTest } from '../services/userService';
 
 const styles = StyleSheet.create({
     container: {
@@ -28,7 +29,7 @@ const styles = StyleSheet.create({
     },
     inputText:{
         height:50,
-        color:"white"
+        color:BLACK,
     },
     forgot:{
         color:"white",
@@ -57,27 +58,57 @@ export default class Login extends Component {
             password:''
         }
     }
-    login=()=>{
-        Alert.alert(
-            "Alert Title",
-            "My Alert Msg",
-            [
-                {
-                    text: "Cancel",
-                    onPress: () => console.log("Cancel Pressed"),
-                    style: "cancel"
-                },
-                { text: "OK", onPress: () => console.log("OK Pressed") }
-            ],
-            { cancelable: false }
-        );
+    login = async ()=>{
+        try{
+            const data={
+                email:this.state.email,
+                password:this.state.password
+            };
+            console.log("before login api call Pressed");
+            await loginUser(data);
+            // await getTest();
+            console.log("after call Pressed");
+            Alert.alert(
+                "Successfully",
+                this.state.email,
+                [
+                    {
+                        text: "Cancel",
+                        onPress: () => console.log("Cancel Pressed su"),
+                        style: "cancel"
+                    },
+                    { text: "OK", onPress: () => console.log("OK Pressed in su") }
+                ],
+                { cancelable: false }
+            );
+        }catch(e){
+            Alert.alert(
+                "Error",
+                this.state.email,
+                [
+                    {
+                        text: "Cancel",
+                        onPress: () => console.log("Cancel Pressed"),
+                        style: "cancel"
+                    },
+                    { text: "OK", onPress: () => console.log("OK Pressed") }
+                ],
+                { cancelable: false }
+            );
+        }
+
     }
     render() {
         return (
             <View style={styles.container}>
                     {/*<LogoWithText/>*/}
-
-                <Text style={styles.logo}>INOMAS</Text>
+                <Image
+                    source={{
+                        uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
+                    }}
+                    style={{ width: 200, height: 200 }}
+                />
+                {/*<Text style={styles.logo}>INOMAS</Text>*/}
                 <View style={styles.inputView} >
                     <TextInput
                         style={styles.inputText}
